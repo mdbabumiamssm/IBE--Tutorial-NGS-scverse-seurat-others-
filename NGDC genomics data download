@@ -1,0 +1,35 @@
+Download the Genomics Data from ​Chinese Genome Sequence Archive in Seconds!​
+MD. BABU MIA, PHD
+
+Tutorial Link: https://youtu.be/kiGZI9OfYeQ
+
+
+Background
+
+Integrating external omics datasets into research projects requires reliable, high-volume data transfers from public repositories.This method paper encapsulates a tutorial on using FileZilla for the retrieval of next generation sequencing data from the National Genomics Data Center (NGDC) of China, detailing the procedural steps and technical considerations.
+
+
+
+Implementation
+
+A step-by-step video tutorial was created by an domain expert demonstrating the intake workflow from an Ubuntu workstation. The walkthrough replicates acquiring FASTQ read files hosted on the National Genomics Data Center’s FTP mirror based in China. FileZilla was launched natively on Ubuntu system and connection configured using published server credentials. Target sequence file located folder levels deep was visual identified using recursive tree navigation.
+
+
+
+Data Transfer
+
+Right-click context menu initializes download to user-specified local storage. Embedded progress bar tracks real-time status with auto-resume on disruption. Post-completion integrity checks validate complete transfer before launching analysis pipelines. Troubleshooting tips are provided including retry logic and alternate regional mirrors.
+
+
+
+Conclusion
+
+FileZilla enables scalable, reproducible download of genomic data objects from standard FTP repositories like NGDC. Automation features can scriptbulk operations while modularity supports cross-platform adoption. Lowering technology barriers accelerates scientific progress through efficient access to exponentially growing public data.
+
+
+
+References:
+
+1. FileZilla Project. (2021). FileZilla Client Tutorial. Retrieved from https://filezilla-project.org/
+
+2. The National Genomics Data Center (NGDC) , https://ngdc.cncb.ac.cn/
